@@ -120,8 +120,8 @@ def display_conversation(history):
         message(history["generated"][i],key=str(i))
 
 def main():
-    st.markdown("<h1 style='text-align: center; color: blue;'>Chat with your PDF 🦜📄 </h1>", unsafe_allow_html=True)
-    st.markdown("<h3 style='text-align: center; color: grey;'>Built by <a href='https://github.com/Saunakghosh10'>Saunak Ghosh with ❤️ </a></h3>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: blue;'>Chat with your Legal Documents 📄 </h1>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; color: grey;'>Built by <a href='https://github.com/Saunakghosh10'>Team Justice with ❤️ </a></h3>", unsafe_allow_html=True)
 
     st.markdown("<h2 style='text-align: center; color:red;'>Upload your PDF 👇</h2>", unsafe_allow_html=True)
 
